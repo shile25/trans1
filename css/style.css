@@ -1,0 +1,181 @@
+body{
+    font-family: 'montserrat',sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    height: 97vh;
+}
+.navigation{
+    max-width: 600px;
+    width: 100%;
+    background-image: url(../image/img1.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.item{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.main-header{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'ubuntu', sans-serif;
+    padding-left: 1.5em;
+    color: white;
+    display: inline-block;
+}
+.navbar .list, .link{
+display: inline-block;
+text-decoration: none;
+color: white;
+padding:1px;
+
+}
+.list:nth-child(1){
+    background-color: #40DFEF;
+    border-radius: 100px;
+}
+.list:not(:first-child):hover{
+    background-color: #40DFEF;
+}
+.subheader{
+    align-items: center;
+    width: 100%;
+}
+.subheader-text{
+    color: white;
+    padding-left: 1em;
+    font-family: 'ubuntu';
+    font-size: 1.8rem;
+    font-weight: 700;
+    width: 50%;
+}
+.paragraph{
+    color: white;
+    padding-left: 1.5em;
+}
+.btn{
+    width: 200px;
+    padding: 1rem 1rem;
+    text-align: center;
+    margin: 1em 2rem;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid;
+    transition: all 2s;
+}
+.btn:hover{
+    transform: translateY(-2px);
+}
+.btn-green{
+    background-color: #40DFEF;
+    
+}
+.image{
+width: 50%;
+margin-top: 1.5rem;
+padding-left: 2rem;
+}
+.feature{
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+.feature-photo{
+    width: 100%; 
+    text-align: center;  
+}
+.image1{
+    width: 50%;
+}
+.feature-text{
+ min-width: 100%;
+ overflow: none;
+}
+.feature-subtext{
+    text-align: center;
+}
+.feature-span{
+    color: #40DFEF;
+    font-size: 1.5rem;
+}
+.paragraph1{
+    margin-left: 1.5em;
+}
+.paragraph2{
+    margin:0 1.5rem;   
+}
+.feature-subheader{
+    margin:2rem 1.5rem;
+}
+
+
+.sales{
+    background-image: url(../image/pexels-julius-silver-870711.jpg);
+    background-size: cover;
+    background-position: 100%;
+    margin-top:-2rem ;
+}
+.sale-text{
+    color: white;
+    margin: 1.5rem;
+}
+.sale-header{
+    text-align: center;
+}
+.sale-price{
+    color: white;
+    margin: 1.5em;
+    font-size: 1.5rem;
+}
+
+
+.testimones{
+    background-color: black;
+    margin-top: -1.5rem;
+}
+.testimones-cases{
+    width: 100%;
+}
+.testimones-photo{
+    text-align: center;
+}
+.testimones-header{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.testimones-text{
+    color: white;
+}
+.testimones-paragraph{
+    margin: 1.5em;
+}
+
+
+.transport-form{
+    width: 100%;
+    background-color: black;
+    margin-top: -1.5rem;
+}
+.transport-text{
+    color: white;
+    margin: -2em;
+}
+.transport-description{
+    margin: 1.5em;
+    padding-left: 1.5em;
+}
+.transport-reg{
+    margin: 1em;
+
+}
+footer{
+    background-color: black;
+}
+.footer-paragraph{
+    color: white;
+}
